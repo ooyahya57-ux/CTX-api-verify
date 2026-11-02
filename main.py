@@ -15,7 +15,7 @@ from telegram.ext import Application, ContextTypes, MessageHandler, filters
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.getenv("DB_PATH", os.path.join(BASE_DIR, "database.db"))
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8404634986"))
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9223411515:AAGr8-dXSHhIYTv-8FpzG9Q8P0H-Q2hOmsI").strip()
 API_HOST = os.getenv("API_HOST", "0.0.0.0")
 API_PORT = int(os.getenv("PORT", "5000"))
 
