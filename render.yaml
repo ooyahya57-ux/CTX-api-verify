@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: madara-key-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        value: "8404634986"
+      - key: PORT
+        value: "10000"
